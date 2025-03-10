@@ -56,7 +56,7 @@ const Navbar = () => {
             {/* Desktop Dropdown for Services */}
             {link.submenu && (
               <ul
-                className={`absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-md border border-amber-300 transition-all duration-300 ease-in-out ${
+                className={`absolute left-0 mt-2 w-56 bg-white z-20 shadow-lg rounded-md border border-amber-300 transition-all duration-300 ease-in-out ${
                   isServicesDropdownOpen
                     ? "opacity-100 translate-y-0 visible"
                     : "opacity-0 translate-y-2 invisible"
