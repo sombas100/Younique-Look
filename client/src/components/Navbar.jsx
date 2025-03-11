@@ -9,10 +9,9 @@ import citiLogo from "../assets/citistudiologo.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
-  const navigate = useNavigate();
 
   const navLinks = [
-    { name: "Home", to: "/home" },
+    { name: "Home", to: "/" },
     { name: "About", to: "/about-us" },
     {
       name: "Services",

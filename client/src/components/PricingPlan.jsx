@@ -11,7 +11,7 @@ const pricingPlans = [
       "Basic Hairstyling",
       "Standard Photoshoot",
     ],
-    gradient: "bg-gradient-to-r from-gray-300 to-gray-500", // Silver Gradient
+    gradient: "bg-gradient-to-r from-gray-300 to-gray-500",
     textColor: "text-black",
   },
   {
@@ -24,7 +24,7 @@ const pricingPlans = [
       "Premium Photoshoot",
       "Edited Photos",
     ],
-    gradient: "bg-gradient-to-r from-yellow-400 to-yellow-600", // Gold Gradient
+    gradient: "bg-gradient-to-r from-yellow-400 to-yellow-600",
     textColor: "text-black",
   },
   {
@@ -38,7 +38,7 @@ const pricingPlans = [
       "Retouched Images",
       "Exclusive Beauty Consultation",
     ],
-    gradient: "bg-gradient-to-r from-gray-100 via-gray-300 to-gray-500", // Diamond Gradient
+    gradient: "bg-gradient-to-r from-gray-100 via-gray-300 to-gray-500",
     textColor: "text-black",
   },
 ];
