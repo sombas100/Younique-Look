@@ -66,7 +66,7 @@ const PricingPlan = () => {
                 {plan.services.map((service, index) => (
                   <li
                     key={index}
-                    className="text-lg flex items-center justify-center"
+                    className="text-xl font-semibold tracking-wide flex items-center justify-center"
                   >
                     ✅ {service}
                   </li>
@@ -74,7 +74,7 @@ const PricingPlan = () => {
               </ul>
 
               {/* Call to Action Button */}
-              <button className="mt-6 px-6 py-3 font-bold bg-black text-white rounded-full text-lg hover:bg-gray-700 transition-all ease-in cursor-pointer">
+              <button className="mt-6 px-6 py-3 font-bold text-xl bg-black text-white rounded-full hover:bg-gray-700 transition-all ease-in cursor-pointer">
                 Book Now
               </button>
             </div>

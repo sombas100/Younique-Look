@@ -57,10 +57,10 @@ const About = () => {
           <div>
             <h2 className="text-4xl font-semibold text-gray-800">Our Studio</h2>
             <p className="text-xl font-semibold tracking-wide text-gray-600 mt-4 leading-relaxed">
-              Step into our state-of-the-art studio, designed to offer a
-              relaxing, luxurious experience. From the moment you walk in,
-              you’ll be welcomed into an atmosphere of elegance, creativity, and
-              professionalism.
+              Step into our state-of-the-art studio located in Bishopsgate,
+              designed to offer a relaxing, luxurious experience. From the
+              moment you walk in, you’ll be welcomed into an atmosphere of
+              elegance, creativity, and professionalism.
             </p>
             <p className="text-xl font-semibold tracking-wide text-gray-600 mt-4">
               Whether you’re here for a makeover, hairstyling, or a professional
