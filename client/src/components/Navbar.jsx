@@ -4,6 +4,7 @@ import hamburgerIcon from "../assets/hamburger-icon.png";
 import x from "../assets/x.png";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import citiLogo from "../assets/CitiStudioLogoW1.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +34,11 @@ const Navbar = () => {
       {/* Logo Section */}
       <div>
         <Link to="/">
-          <img className="w-64 h-auto" src={logo} alt="Younique look logo" />
+          <img
+            className="w-72 h-auto"
+            src={citiLogo}
+            alt="Younique look logo"
+          />
         </Link>
       </div>
 

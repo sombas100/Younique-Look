@@ -8,7 +8,7 @@ const Gallery = () => {
         {galleryImages.map((image) => (
           <div className="w-96 h-auto">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover hover:brightness-75 transition-all  ease-in"
               src={image.image}
               alt="A compilation of photoshoot photos"
             />

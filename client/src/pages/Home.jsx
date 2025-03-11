@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import FeatureHeading from "../components/FeatureHeading";
 import Gallery from "../components/Gallery";
+import CallToAction from "../components/CallToAction";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <FeatureHeading />
       <Features />
       <Gallery />
+      <CallToAction />
     </div>
   );
 };
