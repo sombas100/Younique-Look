@@ -4,7 +4,7 @@ import hairstyleImg1 from "../assets/hairstyle-feature1.jpg";
 
 const Features = () => {
   return (
-    <section className="flex my-50 bg-zinc-100 ">
+    <section className="flex my-45 bg-zinc-100 ">
       <div className="grid grid-cols-2 grid-rows-2 justify-between max-w-full mx-auto gap-60">
         <div className="">
           <img
