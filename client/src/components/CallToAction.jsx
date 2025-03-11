@@ -3,39 +3,52 @@ import image from "../assets/COMPLIMENTARY-IMAGE.jpg";
 
 const CallToAction = () => {
   return (
-    <section className="flex bg-zinc-100">
-      <div className="flex max-w-full mx-auto my-4">
-        <div className="flex flex-col items-center justify-center">
-          <h1 className="text-7xl uppercase text-black/60">Why choose us</h1>
-          <p className="text-3xl flex-wrap text-black/60 mt-6 font-medium w-1/2 tracking-wide">
-            <span className="text-3xl font-bold text-black/60">
-              Expert Beauty Artistry{" "}
-            </span>
+    <section className="py-12 bg-zinc-100">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center">
+        {/* Heading */}
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-black/60 font-bold">
+          Why Choose Us
+        </h1>
+
+        {/* Features Section */}
+        <div className="mt-8 space-y-6 max-w-3xl">
+          <p className="text-lg sm:text-xl md:text-2xl text-black/60 font-medium tracking-wide">
+            <span className="font-bold text-black/80">
+              Expert Beauty Artistry
+            </span>{" "}
             – Our skilled makeup artists craft stunning, customized looks for
             every occasion, ensuring flawless application and long-lasting
             beauty that enhances your natural features.
           </p>
-          <p className="text-3xl flex-wrap text-black/60 mt-6 font-medium w-1/2 tracking-wide">
-            <span className="text-3xl font-bold text-black/60">
+          <p className="text-lg sm:text-xl md:text-2xl text-black/60 font-medium tracking-wide">
+            <span className="font-bold text-black/80">
               Professional Hairstyling
             </span>{" "}
             – From elegant updos to effortless waves, our hairstylists create
             styles that complement your personality and event, leaving you
             feeling confident and camera-ready.
           </p>
-          <p className="text-3xl flex-wrap text-black/60 mt-6 font-medium w-1/2 tracking-wide">
-            <span className="text-3xl font-bold text-black/60">
-              High-End Photography{" "}
-            </span>
+          <p className="text-lg sm:text-xl md:text-2xl text-black/60 font-medium tracking-wide">
+            <span className="font-bold text-black/80">
+              High-End Photography
+            </span>{" "}
             – We specialize in capturing your best angles with precision and
             creativity, ensuring that every shot reflects your radiance,
             confidence, and unique style.
           </p>
-          <img className="mt-14" src={image} alt="" />
-          <button className="py-4 px-6 mt-6 uppercase tracking-wide bg-amber-300 text-black rounded-4xl text-lg font-bold hover:bg-black hover:text-amber-300 cursor-pointer transition-all ease-in duration-300">
-            Book Now
-          </button>
         </div>
+
+        {/* Responsive Image */}
+        <img
+          className="mt-12 w-full max-w-md sm:max-w-lg md:max-w-xl rounded-lg shadow-lg"
+          src={image}
+          alt="Beauty Services"
+        />
+
+        {/* CTA Button */}
+        <button className="mt-8 py-4 px-6 uppercase tracking-wide bg-amber-300 text-black rounded-full text-lg font-bold hover:bg-black hover:text-amber-300 cursor-pointer transition-all duration-300">
+          Book Now
+        </button>
       </div>
     </section>
   );

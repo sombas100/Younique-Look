@@ -4,15 +4,17 @@ import Features from "../components/Features";
 import FeatureHeading from "../components/FeatureHeading";
 import Gallery from "../components/Gallery";
 import CallToAction from "../components/CallToAction";
+import PricingPlan from "../components/PricingPlan";
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <FeatureHeading />
+
       <Features />
       <Gallery />
       <CallToAction />
+      <PricingPlan />
     </div>
   );
 };
