@@ -1,5 +1,5 @@
 import React from "react";
-import citiLogo from "../assets/CitiStudioLogoW1.png";
+import citiLogo from "../assets/citistudiologo.png";
 
 const Footer = () => {
   return (

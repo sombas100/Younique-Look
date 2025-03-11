@@ -44,11 +44,6 @@ const CallToAction = () => {
           src={image}
           alt="Beauty Services"
         />
-
-        {/* CTA Button */}
-        <button className="mt-8 py-4 px-6 uppercase tracking-wide bg-amber-300 text-black rounded-full text-lg font-bold hover:bg-black hover:text-amber-300 cursor-pointer transition-all duration-300">
-          Book Now
-        </button>
       </div>
     </section>
   );

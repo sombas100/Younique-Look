@@ -4,7 +4,7 @@ import hamburgerIcon from "../assets/hamburger-icon.png";
 import x from "../assets/x.png";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import citiLogo from "../assets/CitiStudioLogoW1.png";
+import citiLogo from "../assets/citistudiologo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
