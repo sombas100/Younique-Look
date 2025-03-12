@@ -10,7 +10,7 @@ const Footer = () => {
           <img
             src={citiLogo}
             alt="Citi Studio Logo"
-            className="w-40 mx-auto md:mx-0"
+            className="w-56 mx-auto md:mx-0"
           />
           <p className="mt-4 text-xl font-bold text-gray-400">
             Elevating beauty through makeup, hairstyling, and photography.
