@@ -10,9 +10,9 @@ import img9 from "../assets/back-9.jpg";
 import img10 from "../assets/back-10.jpg";
 import img11 from "../assets/Family.jpg";
 import img12 from "../assets/magazineshoot.jpg";
-import img13 from "../assets/fotolia1.jpg";
-import img14 from "../assets/fotolia2.jpg";
-import img15 from "../assets/fotolia3.jpg";
+import img13 from "../assets/Fotolia1.jpg";
+import img14 from "../assets/Fotolia2.jpg";
+import img15 from "../assets/Fotolia3.jpg";
 import img16 from "../assets/back-16.jpg";
 
 export const galleryImages = [
