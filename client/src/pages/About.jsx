@@ -38,9 +38,25 @@ const About = () => {
           <div className="text-center md:text-left">
             <h2 className="text-4xl font-semibold text-gray-800">The Team</h2>
             <p className="text-xl font-semibold tracking-wide text-gray-600 mt-4 leading-relaxed">
-              Our skilled professionals bring years of expertise in makeup
-              artistry, hairstyling, and photography, ensuring every client
-              leaves with confidence.
+              Our team consists of highly skilled professionals with years of
+              experience in the beauty and photography industries. Each member
+              brings a unique set of talents, allowing us to provide top-tier
+              services tailored to every client’s needs.
+            </p>
+            <p className="text-xl font-semibold tracking-wide text-gray-600 mt-4 leading-relaxed">
+              From master makeup artists who create flawless, red-carpet-ready
+              looks to expert hairstylists who specialize in everything from
+              elegant updos to effortless waves, our beauty team is committed to
+              perfection. Our professional photographers bring their creative
+              vision and technical expertise to ensure every image tells a story
+              of elegance, confidence, and style.
+            </p>
+            <p className="text-xl font-semibold tracking-wide text-gray-600 mt-4 leading-relaxed">
+              At Citi Studio, we believe that beauty is about more than just
+              appearance—it's about confidence, expression, and self-love. Our
+              mission is to help every client feel their best by offering
+              personalized beauty experiences in a welcoming and luxurious
+              environment.
             </p>
           </div>
           <div>
