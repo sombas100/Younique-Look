@@ -1,5 +1,6 @@
 import React from "react";
 import citiLogo from "../assets/citistudiologo.png";
+import youniqueLogo from "../assets/younique-look-logo.jpg";
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
         {/* Brand & Description */}
         <div>
           <img
-            src={citiLogo}
+            src={youniqueLogo}
             alt="Citi Studio Logo"
-            className="w-56 mx-auto md:mx-0"
+            className="w-68 mx-auto md:mx-0"
           />
           <p className="mt-4 text-xl font-bold text-gray-400">
             Elevating beauty through makeup, hairstyling, and photography.

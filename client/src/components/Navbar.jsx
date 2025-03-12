@@ -5,6 +5,7 @@ import x from "../assets/x.png";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import citiLogo from "../assets/citistudiologo.png";
+import youniqueLogo from "../assets/younique-look-logo.jpg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +35,7 @@ const Navbar = () => {
         <Link to="/">
           <img
             className="w-72 h-auto"
-            src={citiLogo}
+            src={youniqueLogo}
             alt="Younique look logo"
           />
         </Link>
