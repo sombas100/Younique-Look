@@ -48,7 +48,7 @@ const PricingPlan = () => {
     <section className="py-12 bg-black">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h1 className="text-5xl font-bold mb-8 text-white">
-          💎 Choose Your Perfect Package
+          Choose Your Perfect Package
         </h1>
 
         {/* Pricing Cards Grid */}
