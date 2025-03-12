@@ -80,7 +80,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full font-bold bg-amber-300 text-black py-3 px-6 rounded-md text-xl hover:bg-black hover:text-amber-300 transition-all duration-300 cursor-pointer"
+              className="w-full font-semibold bg-amber-300 text-black py-3 px-6 rounded-md text-xl hover:bg-black hover:text-amber-300 transition-all duration-300 cursor-pointer"
             >
               Send Message
             </button>
@@ -92,7 +92,7 @@ const Contact = () => {
       <div className="mt-12">
         <iframe
           title="Google Maps Location"
-          className="w-full h-96 border-0"
+          className="w-full h-[400px] border-0"
           loading="lazy"
           allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"

@@ -19,7 +19,7 @@ const About = () => {
           <div>
             <h1 className="text-5xl font-bold text-gray-800 mb-6">About Us</h1>
             <p className="text-xl font-semibold tracking-wide text-gray-600 leading-relaxed">
-              Welcome to Younique Beauty, where artistry meets elegance. Our
+              Welcome to Citi Studio London, where artistry meets elegance. Our
               team of expert makeup artists, hairstylists, and photographers is
               dedicated to transforming your beauty dreams into reality. Whether
               you're preparing for a wedding, a professional shoot, or a special
