@@ -13,7 +13,7 @@ const blogPosts = [
     image: blogImg1,
     summary:
       "Discover the latest makeup trends that are taking over the beauty world. From bold lips to soft glam, find out what suits your style!",
-    date: "March 12, 2025",
+    date: "January 12, 2025",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const blogPosts = [
     image: blogImg2,
     summary:
       "Your hairstyle can transform your entire look! Learn how to pick a flattering hairstyle that enhances your natural features.",
-    date: "March 18, 2025",
+    date: "January 18, 2025",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const blogPosts = [
     image: blogImg3,
     summary:
       "Want stunning portraits? Our expert photographers share pro tips on lighting, angles, and posing for perfect beauty shots.",
-    date: "March 25, 2025",
+    date: "January 25, 2025",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const blogPosts = [
     image: blogImg4,
     summary:
       "Your makeup is only as good as your skincare. Discover the essential steps to prep your skin for a flawless, long-lasting finish.",
-    date: "April 5, 2025",
+    date: "Febuary 5, 2025",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const blogPosts = [
     image: blogImg5,
     summary:
       "Each season affects your hair differently. Learn how to protect, style, and nourish your hair year-round for healthy, luscious locks.",
-    date: "April 15, 2025",
+    date: "Febuary 15, 2025",
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ const blogPosts = [
     image: blogImg6,
     summary:
       "Want to create high-fashion editorial shots? Get expert insights on lighting, posing, and styling for stunning magazine-worthy images.",
-    date: "April 22, 2025",
+    date: "Febuary 22, 2025",
   },
 ];
 
@@ -88,7 +88,7 @@ const Blog = () => {
                 <p className="text-lg font-semibold text-gray-600 mt-4">
                   {post.summary}
                 </p>
-                <button className="mt-4 text-lg text-amber-500 font-bold hover:text-amber-700 transition-all cursor-pointer">
+                <button className="mt-4 text-lg text-amber-300 font-bold hover:text-amber-500 transition-all cursor-pointer">
                   Read More →
                 </button>
               </div>

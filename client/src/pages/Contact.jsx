@@ -17,19 +17,19 @@ const Contact = () => {
             possible!
           </p>
           <p className="inline-flex items-center justify-center text-xl tracking-wide text-gray-600 mt-6">
-            <strong className="p-2 bg-amber-200 mr-4">
+            <strong className="p-2 bg-amber-300 mr-4">
               <FaLocationDot size={16} />
             </strong>{" "}
             4 Spital Square, Bishopsgate, London E1 6DU
           </p>
           <p className="inline-flex items-center justify-center text-xl tracking-wide text-gray-600 mt-2">
-            <strong className="p-2 bg-amber-200 mr-4">
+            <strong className="p-2 bg-amber-300 mr-4">
               <FaPhoneAlt size={16} />
             </strong>
             (123) 456-7890
           </p>
           <p className="flex text-xl tracking-wide text-gray-600 mt-2">
-            <strong className="p-2 bg-amber-200 mr-4">
+            <strong className="p-2 bg-amber-300 mr-4">
               <IoIosMail size={16} />
             </strong>
             contact@citistudio.com
@@ -80,7 +80,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full font-bold bg-amber-300 text-black py-3 px-6 rounded-md text-xl hover:bg-black hover:text-amber-300 transition-all duration-300"
+              className="w-full font-bold bg-amber-300 text-black py-3 px-6 rounded-md text-xl hover:bg-black hover:text-amber-300 transition-all duration-300 cursor-pointer"
             >
               Send Message
             </button>

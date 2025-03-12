@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../assets/WAITING-AREA-1.jpg";
-import teamImg from "../assets/team1.jpg"; // Placeholder for team photo
+import teamImg from "../assets/team2.jpg"; // Placeholder for team photo
 import studioImg from "../assets/studio1.jpg"; // Placeholder for studio photo
 
 const About = () => {

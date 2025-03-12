@@ -1,7 +1,10 @@
 import React from "react";
 import HeroBanner from "../assets/younique-hero2.jpg";
+import { useNavigate } from "react-router";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative mt-8">
       {/* Background Image */}
@@ -24,7 +27,10 @@ const Hero = () => {
           and let your inner glow shine—because you deserve to look and feel
           extraordinary.
         </p>
-        <button className="py-4 px-6 mt-6 uppercase tracking-wide bg-amber-300 text-black rounded-4xl text-lg font-bold hover:bg-black hover:text-amber-300 cursor-pointer transition-all ease-in duration-300">
+        <button
+          onClick={() => navigate("/services")}
+          className="py-4 px-6 mt-6 uppercase tracking-wide bg-amber-300 text-black rounded-4xl text-lg font-bold hover:bg-black hover:text-amber-300 cursor-pointer transition-all ease-in duration-300"
+        >
           Explore Now
         </button>
       </div>
