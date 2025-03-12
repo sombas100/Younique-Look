@@ -1,12 +1,6 @@
 {
-    "version": 2,
-    "routes": [
-      { "src": "/(.*)", "dest": "/index.html", "status": 200 }
-    ],
-    "build": {
-      "env": {
-        "NODE_ENV": "production"
-      }
-    }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
   }
   
