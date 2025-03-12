@@ -1,5 +1,6 @@
 import React from "react";
 import skincareImg from "../assets/skincare4.jpg";
+import { Link } from "react-router-dom";
 
 const Skincare = () => {
   return (
@@ -21,7 +22,7 @@ const Skincare = () => {
               personalized skincare services designed for your unique needs.
             </p>
             <button className="mt-6 bg-amber-300 text-black py-3 px-6 rounded-md font-semibold text-xl hover:bg-black hover:text-amber-300 transition-all duration-300">
-              Book Now →
+              <Link to="/#pricing">Book Now →</Link>
             </button>
           </div>
         </div>

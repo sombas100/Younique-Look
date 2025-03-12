@@ -1,5 +1,6 @@
 import React from "react";
 import makeupImg from "../assets/makeup3.jpg";
+import { Link } from "react-router-dom";
 
 const Makeup = () => {
   return (
@@ -30,7 +31,7 @@ const Makeup = () => {
               unique style.
             </p>
             <button className="mt-6 bg-amber-300 text-black py-3 px-6 rounded-md font-semibold text-xl hover:bg-black hover:text-amber-300 transition-all duration-300 cursor-pointer">
-              Book Now →
+              <Link to="/#pricing">Book Now →</Link>
             </button>
           </div>
         </div>

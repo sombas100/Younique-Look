@@ -1,5 +1,6 @@
 import React from "react";
 import hairImg from "../assets/hairstyle2.jpg";
+import { Link } from "react-router-dom";
 
 const Hair = () => {
   return (
@@ -22,7 +23,7 @@ const Hair = () => {
               any occasion.
             </p>
             <button className="mt-6 font-semibold text-xl bg-amber-300 text-black py-3 px-6 rounded-md hover:bg-black hover:text-amber-300 transition-all duration-300">
-              Book Now →
+              <Link to="/#pricing">Book Now →</Link>
             </button>
           </div>
         </div>
