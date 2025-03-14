@@ -4,16 +4,16 @@ import youniqueLogo from "../assets/younique-look-logo.jpg";
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc-900 text-white py-12 mt-auto">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-5 lg:col-span-4 gap-12 text-center md:text-left">
+    <footer className="bg-white text-white py-12 mt-auto">
+      <div className="max-w-7xl mx-auto px-6 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:col-span-4 grid-cols-1 gap-12 text-center md:text-left">
         {/* Brand & Description */}
-        <div className="col-span-2">
+        <div className="md:col-span-2">
           <img
             src={youniqueLogo}
             alt="Citi Studio Logo"
             className="w-68 mx-auto md:mx-0"
           />
-          <p className="mt-4 text-xl font-bold text-gray-400">
+          <p className="mt-4 text-xl font-bold text-gray-800">
             Elevating beauty through makeup, hairstyling, and photography.
             Bringing confidence & elegance to every look.
           </p>
@@ -21,8 +21,8 @@ const Footer = () => {
 
         {/* Navigation Links */}
         <div>
-          <h2 className="text-3xl text-gray-300 font-bold">Quick Links</h2>
-          <ul className="mt-4 space-y-2">
+          <h2 className="text-3xl text-gray-800 font-bold">Quick Links</h2>
+          <ul className="mt-4 space-y-2 font-semibold text-gray-700">
             <li>
               <a href="/" className="text-xl hover:text-amber-300 transition">
                 Home
@@ -63,8 +63,8 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h2 className="text-3xl text-gray-300 font-bold">Services</h2>
-          <ul className="mt-4 space-y-2">
+          <h2 className="text-3xl text-gray-800 font-bold">Services</h2>
+          <ul className="mt-4 space-y-2 font-semibold text-gray-700">
             <li>
               <a href="/" className="text-xl hover:text-amber-300 transition">
                 Makeup
@@ -93,8 +93,8 @@ const Footer = () => {
 
         {/* Contact & Social Links */}
         <div>
-          <h2 className="text-3xl text-gray-300 font-bold">Get in Touch</h2>
-          <p className="mt-4 text-xl font-bold text-gray-400">
+          <h2 className="text-3xl text-gray-800 font-bold">Get in Touch</h2>
+          <p className="mt-4 text-xl font-bold text-gray-700">
             Email: younique-look@contact.co.uk
           </p>
           <div className="flex justify-center md:justify-start space-x-4 mt-4">

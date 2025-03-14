@@ -86,8 +86,8 @@ const Features = () => {
           <h2 className="text-2xl font-bold text-black/60 py-2">Shoot your beauty</h2>
           <p className="text-lg font-semibold sm:text-xl md:text-2xl text-black/60 tracking-wide">
           Our beauty experts bring out the best in you, enhancing your natural 
-  elegance with expert styling, makeup, and personalized care. 
-  Because beauty is confidence, and confidence is unstoppable.
+          elegance with expert styling, makeup, and personalized care. 
+        Because beauty is confidence, and confidence is unstoppable.
           </p>
           <p className="text-lg sm:text-xl font-bold text-black/60 mt-4 hover:text-amber-300 transform hover:scale-105 transition-all duration-300 hover:underline cursor-pointer">
             Learn More &rarr;

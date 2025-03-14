@@ -19,7 +19,7 @@ const Hero = () => {
       {/* Text Overlay */}
       <div className="absolute inset-0 flex flex-col translate-y-3 items-center justify-center text-center text-white px-6">
         <h1 className="translate-y-3 text-4xl lg:text-8xl sm:text-5xl md:text-7xl font-bold drop-shadow-lg tracking-wide">
-          Unleash Your Unique Beauty
+          Unleash Your Younique Beauty
         </h1>
         <p className="text-base sm:text-lg md:text-2xl lg:text-3xl mt-8 drop-shadow-md tracking-wider leading-relaxed max-w-[600px]">
           Step into a world where makeup, hairstyling, and photography blend

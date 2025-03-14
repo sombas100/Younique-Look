@@ -3,7 +3,7 @@ import image from "../assets/COMPLIMENTARY-IMAGE.jpg";
 
 const CallToAction = () => {
   return (
-    <section className="py-12 bg-zinc-100">
+    <section className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center">
         {/* Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-black/60 font-bold">

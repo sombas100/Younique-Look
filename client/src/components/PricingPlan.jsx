@@ -47,7 +47,7 @@ const PricingPlan = () => {
   return (
     <section id="pricing" className="py-12 bg-black">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h1 className="text-5xl font-bold mb-8 text-white">
+        <h1 className="text-5xl font-bold mb-8 text-gray-600">
           Choose Your Perfect Package
         </h1>
 
@@ -56,7 +56,7 @@ const PricingPlan = () => {
           {pricingPlans.map((plan) => (
             <div
               key={plan.id}
-              className={`p-6 max-w-[400px] w-full rounded-lg shadow-lg ${plan.gradient} ${plan.textColor}`}
+              className={`p-6 max-w-[400px] rounded-lg shadow-lg ${plan.gradient} ${plan.textColor}`}
             >
               <h2 className="text-4xl font-semibold mb-3">{plan.name}</h2>
               <p className="text-3xl font-bold">{plan.price}</p>
