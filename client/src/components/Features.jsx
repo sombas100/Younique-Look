@@ -99,7 +99,7 @@ const Features = () => {
 
         <div className="flex flex-col justify-center text-center md:text-left lg:col-span-1">
           <h2 className="text-3xl font-bold mb-3 text-black/60">Step 4</h2>
-          <h3 className="text-2xl font-bold text-black/60 py-2">Photoshoot</h3>
+          <h3 className="text-2xl font-bold text-black/60 py-2">Choose your photo's</h3>
           <p className="text-lg font-semibold sm:text-xl md:text-2xl text-black/60 tracking-wide">
           Step into the spotlight with our luxury photoshoots. Whether it's a personal portrait, family portrait, fashion editorial, or a special occasion, we craft stunning visuals that showcase your unique elegance. 
           Book your session today!

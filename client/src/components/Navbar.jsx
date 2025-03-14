@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import logo from "../assets/younique-look-logo.jpg";
 import hamburgerIcon from "../assets/hamburger-icon.png";
 import x from "../assets/x.png";
-import { useNavigate } from "react-router-dom";
+
 import { Link } from "react-router-dom";
-import citiLogo from "../assets/citistudiologo.png";
+
 import youniqueLogo from "../assets/younique-look-logo.jpg";
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
         { name: "Makeup", to: "/services/makeup" },
         { name: "Hair", to: "/services/hair" },
         { name: "Photoshoot", to: "/services/photoshoot" },
-        { name: "Skincare", to: "/services/skincare" },
+        
       ],
     },
     { name: "Blog", to: "/blog" },
