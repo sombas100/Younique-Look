@@ -4,6 +4,7 @@ import { galleryImages } from "../constants/imageLinks";
 const Gallery = () => {
   return (
     <section className="py-12 hidden md:block">
+      <h1 className="text-5xl py-4 mb-3 font-bold text-black/60 text-center">Our Gallery</h1>
       <div className="max-w-7xl mx-auto px-6">
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

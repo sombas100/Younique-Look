@@ -2,6 +2,7 @@ import React from "react";
 import makeupImg1 from "../assets/makeup1.jpg";
 import hairstyleImg1 from "../assets/hairstyle-feature1.jpg";
 import beautyImg1 from "../assets/beauty1.jpg"; // Add Step 3 Image
+import photoshootimg1 from '../assets/photoshoot1.jpg'
 import { FaArrowDown } from "react-icons/fa6"; // Import Arrow Icon
 
 const Features = () => {
@@ -92,7 +93,28 @@ const Features = () => {
             Learn More &rarr;
           </p>
         </div>
+        <div className="lg:col-span-3 flex justify-center my-10">
+          <FaArrowDown className="text-4xl text-black/50 animate-bounce" />
+        </div>
 
+        <div className="flex flex-col justify-center text-center md:text-left lg:col-span-1">
+          <h2 className="text-3xl font-bold mb-3 text-black/60">Step 4</h2>
+          <h3 className="text-2xl font-bold text-black/60 py-2">Photoshoot</h3>
+          <p className="text-lg font-semibold sm:text-xl md:text-2xl text-black/60 tracking-wide">
+          Step into the spotlight with our luxury photoshoots. Whether it's a personal portrait, family portrait, fashion editorial, or a special occasion, we craft stunning visuals that showcase your unique elegance. 
+          Book your session today!
+          </p>
+          <p className="text-lg sm:text-xl font-bold text-black/60 mt-4 hover:text-amber-300 transform hover:scale-105 transition-all duration-300 hover:underline cursor-pointer">
+            Learn More &rarr;
+          </p>
+        </div>
+        <div className="lg:col-span-2 flex items-center justify-center">
+          <img
+            className="w-full max-h-96 object-cover max-w-2xl rounded-lg shadow-lg"
+            src={photoshootimg1}
+            alt="Hairstyle Feature"
+          />
+        </div>
       </div>
     </section>
   );

@@ -10,35 +10,34 @@ const CallToAction = () => {
           Why Choose Us
         </h1>
 
-        {/* Features Section */}
-        <div className="mt-8 space-y-6 max-w-3xl">
-          <p className="text-lg sm:text-xl md:text-2xl text-black/60 font-medium tracking-wide">
-            <span className="font-bold text-black/80">
-              Expert Beauty Artistry
-            </span>{" "}
-            – Our skilled makeup artists craft stunning, customized looks for
-            every occasion, ensuring flawless application and long-lasting
-            beauty that enhances your natural features.
-          </p>
-          <p className="text-lg sm:text-xl md:text-2xl text-black/60 font-medium tracking-wide">
-            <span className="font-bold text-black/80">
-              Professional Hairstyling
-            </span>{" "}
-            – From elegant updos to effortless waves, our hairstylists create
-            styles that complement your personality and event, leaving you
-            feeling confident and camera-ready.
-          </p>
-          <p className="text-lg sm:text-xl md:text-2xl text-black/60 font-medium tracking-wide">
-            <span className="font-bold text-black/80">
-              High-End Photography
-            </span>{" "}
-            – We specialize in capturing your best angles with precision and
-            creativity, ensuring that every shot reflects your radiance,
-            confidence, and unique style.
-          </p>
+        {/* Features Section in Grid */}
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl">
+          <div>
+            <p className="text-lg sm:text-xl md:text-2xl text-black/60 font-medium tracking-wide">
+              <span className="font-bold text-black/80">Expert Beauty Artistry</span> – 
+              Our skilled makeup artists craft stunning, customized looks for every 
+              occasion, ensuring flawless application and long-lasting beauty that 
+              enhances your natural features.
+            </p>
+          </div>
+          <div>
+            <p className="text-lg sm:text-xl md:text-2xl text-black/60 font-medium tracking-wide">
+              <span className="font-bold text-black/80">Professional Hairstyling</span> – 
+              From elegant updos to effortless waves, our hairstylists create styles 
+              that complement your personality and event, leaving you feeling confident 
+              and camera-ready.
+            </p>
+          </div>
+          <div>
+            <p className="text-lg sm:text-xl md:text-2xl text-black/60 font-medium tracking-wide">
+              <span className="font-bold text-black/80">High-End Photography</span> – 
+              We specialize in capturing your best angles with precision and creativity, 
+              ensuring that every shot reflects your radiance, confidence, and unique style.
+            </p>
+          </div>
         </div>
 
-        {/* Responsive Image */}
+        {/* Responsive Image Below */}
         <img
           className="mt-12 w-full max-w-md sm:max-w-lg md:max-w-xl rounded-lg shadow-lg"
           src={image}

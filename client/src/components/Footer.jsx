@@ -1,5 +1,5 @@
 import React from "react";
-import citiLogo from "../assets/citistudiologo.png";
+
 import youniqueLogo from "../assets/younique-look-logo.jpg";
 
 const Footer = () => {
@@ -100,7 +100,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="text-center text-gray-500 mt-8 border-t border-gray-700 pt-4">
-        <p>© {new Date().getFullYear()} Citi Studio. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Younique Look, All rights reserved, Developed by Softu LTD</p>
       </div>
     </footer>
   );
