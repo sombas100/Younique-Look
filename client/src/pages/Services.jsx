@@ -21,12 +21,7 @@ const services = [
       "Capture your best angles with our professional photography services. Whether it's for personal branding, editorial shoots, or special events, we ensure picture-perfect results.",
     to: "/services/photoshoot",
   },
-  {
-    name: "Skincare",
-    description:
-      "Achieve radiant and healthy skin with our premium skincare treatments. From deep hydration to anti-aging solutions, we offer personalized skincare services tailored to your needs.",
-    to: "/services/skincare",
-  },
+  
 ];
 
 const Services = () => {

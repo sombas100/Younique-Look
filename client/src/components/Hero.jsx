@@ -31,7 +31,7 @@ const Hero = () => {
           onClick={() => navigate("/services")}
           className="py-4 px-6 mt-6 uppercase tracking-wide bg-amber-300 text-black rounded-4xl text-lg font-bold hover:bg-black hover:text-amber-300 cursor-pointer transition-all ease-in duration-300"
         >
-          Explore Now
+          Enquire Now
         </button>
       </div>
     </section>
