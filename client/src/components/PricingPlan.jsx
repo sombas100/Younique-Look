@@ -47,16 +47,16 @@ const PricingPlan = () => {
   return (
     <section id="pricing" className="py-12 bg-black">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h1 className="text-5xl font-bold mb-8 text-white">
+        <h1 className="text-5xl font-bold mb-8 text-gray-600">
           Choose Your Perfect Package
         </h1>
 
         {/* Pricing Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full max-w-[1440px] gap-8">
           {pricingPlans.map((plan) => (
             <div
               key={plan.id}
-              className={`p-6 rounded-lg shadow-lg ${plan.gradient} ${plan.textColor}`}
+              className={`p-6 max-w-[400px] rounded-lg shadow-lg ${plan.gradient} ${plan.textColor}`}
             >
               <h2 className="text-4xl font-semibold mb-3">{plan.name}</h2>
               <p className="text-3xl font-bold">{plan.price}</p>
@@ -66,7 +66,7 @@ const PricingPlan = () => {
                 {plan.services.map((service, index) => (
                   <li
                     key={index}
-                    className="text-xl font-semibold tracking-wide flex items-center justify-center"
+                    className="text-xl border-b border-gray-500 py-2 font-semibold tracking-wide flex items-center justify-center"
                   >
                     ✅ {service}
                   </li>

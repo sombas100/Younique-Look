@@ -17,9 +17,9 @@ const About = () => {
             />
           </div>
           <div>
-            <h1 className="text-5xl font-bold text-gray-800 mb-6">About Us</h1>
+            <h1 className="text-5xl font-bold text-gray-500 mb-6">About Us</h1>
             <p className="text-xl font-semibold tracking-wide text-gray-600 leading-relaxed">
-              Welcome to Citi Studio London, where artistry meets elegance. Our
+              Welcome to Younique look, where artistry meets elegance. Our
               team of expert makeup artists, hairstylists, and photographers is
               dedicated to transforming your beauty dreams into reality. Whether
               you're preparing for a wedding, a professional shoot, or a special
@@ -36,7 +36,7 @@ const About = () => {
         {/* Meet the Team Section */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
-            <h2 className="text-4xl font-semibold text-gray-800">The Team</h2>
+            <h2 className="text-4xl font-semibold text-gray-500">The Team</h2>
             <p className="text-xl font-semibold tracking-wide text-gray-600 mt-4 leading-relaxed">
               Our team consists of highly skilled professionals with years of
               experience in the beauty and photography industries. Each member
@@ -71,7 +71,7 @@ const About = () => {
         {/* Our Studio Section */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-semibold text-gray-800">Our Studio</h2>
+            <h2 className="text-4xl font-semibold text-gray-500">Our Studio</h2>
             <p className="text-xl font-semibold tracking-wide text-gray-600 mt-4 leading-relaxed">
               Step into our state-of-the-art studio located in Bishopsgate,
               designed to offer a relaxing, luxurious experience. From the

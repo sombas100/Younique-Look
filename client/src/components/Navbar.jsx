@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/younique-look-logo.jpg";
-import hamburgerIcon from "../assets/hamburger-icon.png";
-import x from "../assets/x.png";
-import { useNavigate } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
-import citiLogo from "../assets/citistudiologo.png";
 import youniqueLogo from "../assets/younique-look-logo.jpg";
 
 const Navbar = () => {
@@ -21,17 +18,17 @@ const Navbar = () => {
         { name: "Makeup", to: "/services/makeup" },
         { name: "Hair", to: "/services/hair" },
         { name: "Photoshoot", to: "/services/photoshoot" },
-        { name: "Skincare", to: "/services/skincare" },
+        
       ],
     },
     { name: "Blog", to: "/blog" },
-    { name: "Contact Us", to: "/contact" },
+    { name: "Contact", to: "/contact" },
   ];
 
   return (
     <nav className="layout mx-auto max-w-full flex items-center justify-between border-b border-gray-500 p-6 relative bg-white">
       {/* Logo Section */}
-      <div>
+      <div className="w-full md:mr-6">
         <Link to="/">
           <img
             className="w-72 h-auto"
@@ -60,7 +57,7 @@ const Navbar = () => {
             {/* Desktop Dropdown for Services */}
             {link.submenu && (
               <ul
-                className={`absolute left-0 mt-2 w-56 bg-white z-20 shadow-lg rounded-md border border-amber-300 transition-all duration-300 ease-in-out ${
+                className={`absolute left-0 mt-2 w-56 bg-black z-20 shadow-lg rounded-md border border-amber-300 transition-all duration-300 ease-in-out ${
                   isServicesDropdownOpen
                     ? "opacity-100 translate-y-0 visible"
                     : "opacity-0 translate-y-2 invisible"
@@ -72,11 +69,11 @@ const Navbar = () => {
                   <li
                     key={j}
                     style={{ padding: "8px" }}
-                    className="py-3 px-5 w-full hover:bg-amber-100 transition-all duration-300 ease-in-out rounded-md"
+                    className="py-3 bg-white px-5 w-full hover:bg-amber-300 transition-all duration-300 ease-in-out rounded-md"
                   >
                     <a
                       href={subLink.to}
-                      className="block text-2xl text-black/60"
+                      className="block text-2xl text-black"
                     >
                       {subLink.name}
                     </a>
@@ -89,13 +86,9 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger Icon - Visible Only on Mobile */}
-      <div className="md:hidden">
-        <button onClick={() => setIsMenuOpen(true)}>
-          <img
-            className="w-16 h-16 translate-y-6 hover:cursor-pointer"
-            src={hamburgerIcon}
-            alt="Menu"
-          />
+      <div className="md:hidden text-black ">
+        <button className="py-3 px-2 hover:bg-gray-100 transition-all ease-in hover:cursor-pointer" onClick={() => setIsMenuOpen(true)}>
+          <GiHamburgerMenu size={30}/>
         </button>
       </div>
 
@@ -107,7 +100,7 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(false)}
             className="absolute top-4 right-4 hover:cursor-pointer"
           >
-            <img className="w-6 h-6" src={x} alt="Close menu" />
+            <p className="text-black/60 text-2xl hover:text-amber-300">X</p>
           </button>
 
           {/* Logo inside the mobile menu */}
@@ -122,7 +115,7 @@ const Navbar = () => {
             {navLinks.map((link, i) => (
               <li
                 key={i}
-                className="text-2xl font-semibold text-black/60 hover:text-amber-300 transition-all duration-300 ease-in-out"
+                className="lg:text-2xl text-3xl py-2 font-semibold text-black/60 hover:text-amber-300 transition-all duration-300 ease-in-out"
               >
                 <a href={link.to}>{link.name}</a>
               </li>
