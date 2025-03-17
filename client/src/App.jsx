@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Makeup from "./pages/Makeup";
 import Hair from "./pages/Hair";
-import Photoshoot from "./pages/Photoshoot";
+
 import MakeoverDetails from "./pages/services/MakeoverPage";
 import BoudoirPage from "./pages/services/BoudoirPage";
 import CakeSmashDetails from "./pages/services/CakesmashDetails";
@@ -18,7 +18,7 @@ import FamilyDetails from "./pages/services/FamilyDetails";
 import PortraitsPage from "./pages/services/PortraitsPage";
 import BabyBump from "./pages/services/BabyBump";
 import Newborn from "./pages/services/Newborn";
-import Test from "./pages/services/test";
+
 
 
 
@@ -57,7 +57,6 @@ function App() {
           <Route path="/services/family" element={<FamilyDetails />} />
           <Route path="/services/baby-bump" element={<BabyBump />} />
           <Route path="/services/newborn" element={<Newborn />} />
-          <Route path="/test" element={<Test />} />
           
 
           <Route path="/blog" element={<Blog />} />

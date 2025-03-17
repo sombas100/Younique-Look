@@ -3,6 +3,8 @@ import serviceImg5 from "../../assets/cakesmashdetails1.jpg";
 import serviceImg6 from "../../assets/cakesmash2.jpg";
 import serviceImg7 from "../../assets/cakesmash4.jpg";
 
+import { Link } from "react-router-dom";
+
 const CakeSmashDetails = () => {
   return (
     <section className="py-12 bg-gray-100">
@@ -18,9 +20,11 @@ const CakeSmashDetails = () => {
           <p className="mt-4 text-xl font-semibold text-gray-600">
           Our cake smash photography sessions are the perfect way to celebrate your little one’s special milestone with joy, laughter, and adorable messy fun! Designed to capture the excitement of this once-in-a-lifetime moment, our sessions provide a playful and stress-free environment where your baby can explore, smash, and enjoy their cake while we capture every precious giggle, curious glance, and frosting-covered smile. Whether you prefer a themed setup, colorful decorations, or a simple, classic style, we’ll create a fun-filled experience that results in beautiful, heartwarming images to cherish forever.
           </p>
+          <Link to='/contact'>
           <button className="mt-6 px-6 py-3 text-lg font-bold text-white bg-black rounded-lg hover:bg-gray-800 transition hover:cursor-pointer">
             Book Now
           </button>
+          </Link>
         </div>
       </div>
     </section>
