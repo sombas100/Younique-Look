@@ -11,7 +11,7 @@ const Gallery = () => {
           {galleryImages.map((image, index) => (
             <div key={index} className="overflow-hidden rounded-lg shadow-lg">
               <img
-                className="w-full h-72 object-cover hover:brightness-75 transition-all duration-300 ease-in-out"
+                className="w-full h-72 object-cover"
                 src={image.image}
                 alt="A compilation of photoshoot photos"
               />

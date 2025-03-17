@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Pricing data array with gradient backgrounds
 const pricingPlans = [
@@ -74,9 +75,11 @@ const PricingPlan = () => {
               </ul>
 
               {/* Call to Action Button */}
+              <Link to='/contact'>
               <button className="mt-6 px-6 py-3 font-bold text-xl bg-black text-white rounded-full hover:bg-gray-700 transition-all ease-in cursor-pointer">
                 Book Now
               </button>
+              </Link>
             </div>
           ))}
         </div>

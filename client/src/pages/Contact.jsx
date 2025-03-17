@@ -4,6 +4,17 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 
+const services = [
+  "Makeover",
+  "Portraits",
+  "Boudoir",
+  "Family Photography",
+  "Cake Smash",
+  "Baby Bump Photography",
+  "Newborn Photography",
+  
+];
+
 const Contact = () => {
   return (
     <section className="py-12 bg-gray-100">
@@ -42,18 +53,20 @@ const Contact = () => {
             Contact Us
           </h2>
           <form>
+            {/* Name */}
             <div className="mb-4">
               <label className="block text-xl font-bold text-gray-700">
                 Name
               </label>
               <input
                 type="text"
-                className="mt-2 text-xl  w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-300"
+                className="mt-2 text-xl w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-300"
                 placeholder="Enter your name"
                 required
               />
             </div>
 
+            {/* Email */}
             <div className="mb-4">
               <label className="block text-xl font-bold text-gray-700">
                 Email
@@ -66,6 +79,40 @@ const Contact = () => {
               />
             </div>
 
+            {/* Age */}
+            <div className="mb-4">
+              <label className="block text-xl font-bold text-gray-700">
+                Age
+              </label>
+              <input
+                type="number"
+                className="mt-2 text-xl w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-300"
+                placeholder="Enter your age"
+                required
+              />
+            </div>
+
+            {/* Service Selection */}
+            <div className="mb-4">
+              <label className="block text-xl font-bold text-gray-700">
+                Which service would you like?
+              </label>
+              <select
+                className="mt-2 text-xl w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-300"
+                required
+              >
+                <option value="" disabled selected>
+                  Select a service
+                </option>
+                {services.map((service, index) => (
+                  <option key={index} value={service}>
+                    {service}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Message */}
             <div className="mb-4">
               <label className="block text-xl font-bold text-gray-700">
                 Message
@@ -78,6 +125,7 @@ const Contact = () => {
               ></textarea>
             </div>
 
+            {/* Submit Button */}
             <button
               type="submit"
               className="w-full font-semibold bg-amber-300 text-black py-3 px-6 rounded-md text-xl hover:bg-black hover:text-amber-300 transition-all duration-300 cursor-pointer"
@@ -96,7 +144,7 @@ const Contact = () => {
           loading="lazy"
           allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19821.09197867123!2d-0.07850979999999999!3d51.51946005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cab74b719f5%3A0xa9494469e2c173c7!2s4%20Spital%20Square%2C%20London%20E1%206DU%2C%20UK!5e0!3m2!1sen!2sus!4v1712234567890"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19821.09197867123!2d-0.07850979999999999!3d51.51946005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cab74b719f5%3A0xa9494469e2c173c7!2s4%20Spital%20Square%2C%20London%20E1%206DU%2C%20UK!5e0!3m2!1sen!2us!4v1712234567890"
         ></iframe>
       </div>
     </section>
