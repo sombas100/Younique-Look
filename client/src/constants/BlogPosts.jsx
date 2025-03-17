@@ -1,9 +1,9 @@
 import blogImg1 from "../assets/makeup2.jpg";
-import blogImg2 from "../assets/FRONT-COVER.jpg";
+import blogImg2 from "../assets/blogimg1.jpg";
 import blogImg3 from "../assets/NIGHT-CLUB3.jpg";
 import blogImg4 from "../assets/skincare1.jpg";
 import blogImg5 from "../assets/haircare1.jpg";
-import blogImg6 from "../assets/photography2.jpg";
+import blogImg6 from "../assets/photoshootblog.jpg";
 
 export const blogPosts = [
   {

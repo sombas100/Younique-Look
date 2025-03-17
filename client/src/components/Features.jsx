@@ -18,7 +18,7 @@ const Features = () => {
         {/* Step 1: Image Left, Text Right */}
         <div className="lg:col-span-2 flex items-center justify-center">
           <img
-            className="w-full max-w-2xl rounded-lg shadow-lg"
+            className="w-full maX-H-96 max-w-2xl rounded-lg shadow-lg"
             src={makeupImg1}
             alt="Makeup Set"
           />
@@ -76,7 +76,7 @@ const Features = () => {
         {/* Step 3: Image Left, Text Right */}
         <div className="lg:col-span-2 flex items-center justify-center">
           <img
-            className="w-full max-h-[400px] object-cover max-w-2xl rounded-lg shadow-lg"
+            className="w-full max-h-96 object-cover max-w-2xl rounded-lg shadow-lg"
             src={beautyImg1}
             alt="Skincare Feature"
           />
@@ -87,7 +87,7 @@ const Features = () => {
           <p className="text-lg font-semibold sm:text-xl md:text-2xl text-black/60 tracking-wide">
           Our beauty experts bring out the best in you, enhancing your natural 
           elegance with expert styling, makeup, and personalized care. 
-        Because beauty is confidence, and confidence is unstoppable.
+         Because beauty is confidence, and confidence is unstoppable.
           </p>
           <p className="text-lg sm:text-xl font-bold text-black/60 mt-4 hover:text-amber-300 transform hover:scale-105 transition-all duration-300 hover:underline cursor-pointer">
             Learn More &rarr;

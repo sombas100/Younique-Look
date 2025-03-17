@@ -15,9 +15,13 @@ const Navbar = () => {
       name: "Services",
       to: "/services",
       submenu: [
-        { name: "Makeup", to: "/services/makeup" },
-        { name: "Hair", to: "/services/hair" },
-        { name: "Photoshoot", to: "/services/photoshoot" },
+        { name: "Makeover", to: "/services/makeover" },
+        { name: "Portraits", to: "/services/portrait" },
+        { name: "Boudoir", to: "/services/boudoir" },
+        { name: "Family", to: "/services/family" },
+        { name: "Cake Smash", to: "/services/cake-smash" },
+        { name: "Baby Bump", to: "/services/baby-bump" },
+        { name: "Newborn", to: "/services/newborn" },
         
       ],
     },

@@ -95,6 +95,12 @@ const Footer = () => {
         <div>
           <h2 className="text-3xl text-gray-800 font-bold">Get in Touch</h2>
           <p className="mt-4 text-xl font-bold text-gray-700">
+            Address: 229 Shoreditch High Street, E1 6PJ
+          </p>
+          <p className="mt-4 text-xl font-bold text-gray-700">
+            Phone: +447 123 456712
+          </p>
+          <p className="mt-4 text-xl font-bold text-gray-700">
             Email: younique-look@contact.co.uk
           </p>
           <div className="flex justify-center md:justify-start space-x-4 mt-4">

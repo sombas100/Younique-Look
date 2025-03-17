@@ -1,5 +1,6 @@
 import React from "react";
-import HeroBanner from "../assets/younique-hero7.jpg";
+import HeroBanner from "../assets/FRONT-COVER.jpg";
+
 import { useNavigate } from "react-router";
 
 const Hero = () => {

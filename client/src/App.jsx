@@ -11,7 +11,16 @@ import Services from "./pages/Services";
 import Makeup from "./pages/Makeup";
 import Hair from "./pages/Hair";
 import Photoshoot from "./pages/Photoshoot";
-import Skincare from "./pages/Skincare";
+import MakeoverDetails from "./pages/services/MakeoverPage";
+import BoudoirPage from "./pages/services/BoudoirPage";
+import CakeSmashDetails from "./pages/services/CakesmashDetails";
+import FamilyDetails from "./pages/services/FamilyDetails";
+import PortraitsPage from "./pages/services/PortraitsPage";
+import BabyBump from "./pages/services/BabyBump";
+import Newborn from "./pages/services/Newborn";
+import Test from "./pages/services/test";
+
+
 
 function App() {
   const ScrollToAnchor = () => {
@@ -37,10 +46,20 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/services" element={<Services />} />
+
           <Route path="/services/makeup" element={<Makeup />} />
           <Route path="/services/hair" element={<Hair />} />
-          <Route path="/services/photoshoot" element={<Photoshoot />} />
-          <Route path="/services/skincare" element={<Skincare />} />
+
+          <Route path="/services/portrait" element={<PortraitsPage />} />
+          <Route path="/services/makeover" element={<MakeoverDetails />} />
+          <Route path="/services/boudoir" element={<BoudoirPage />} />
+          <Route path="/services/cake-smash" element={<CakeSmashDetails />} />
+          <Route path="/services/family" element={<FamilyDetails />} />
+          <Route path="/services/baby-bump" element={<BabyBump />} />
+          <Route path="/services/newborn" element={<Newborn />} />
+          <Route path="/test" element={<Test />} />
+          
+
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
