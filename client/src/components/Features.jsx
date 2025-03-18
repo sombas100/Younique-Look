@@ -2,7 +2,7 @@ import React from "react";
 import makeupImg1 from "../assets/makeup1.jpg";
 import hairstyleImg1 from "../assets/hairstyle-feature1.jpg";
 import beautyImg1 from "../assets/beauty1.jpg"; // Add Step 3 Image
-import photoshootimg1 from '../assets/photoshoot1.jpg'
+import photoshootimg1 from '../assets/photoshoot10.jpg'
 import { FaArrowDown } from "react-icons/fa6"; // Import Arrow Icon
 
 const Features = () => {
